@@ -1,11 +1,11 @@
 import React from 'react';
 import Nav from '../components/Nav';
 
-export default function HomePage() {
+export default function PizzaPage() {
   return (
     <div>
       <Nav />
-      <p>Hey! I'm the homepage.</p>
+      <p>Hey! I'm the Pizza page.</p>
     </div>
   );
 }
