@@ -1,5 +1,5 @@
 {
-  "name": "slicks-slices-frontend",
+  "name": "slice-it-up-frontend",
   "private": true,
   "description": "Slick Serves the Sweetest Slices",
   "version": "0.1.0",
@@ -54,9 +54,5 @@
     "eslint-plugin-react-hooks": "^4.1.2",
     "esm": "^3.2.25",
     "prettier": "^2.1.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wesbos/slicks-slices"
   }
 }

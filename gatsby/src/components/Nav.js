@@ -1,14 +1,24 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 export default function Nav() {
   return (
     <nav>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Hot Now</Link>
         </li>
         <li>
-          <a href="/beer">Beer</a>
+          <Link to="/pizzas">Pizza Menu</Link>
+        </li>
+        <li>
+          <Link to="/">LOGO</Link>
+        </li>
+        <li>
+          <Link to="/slicemasters">Slice Masters</Link>
+        </li>
+        <li>
+          <Link to="/order">Order Ahead!!</Link>
         </li>
       </ul>
     </nav>
